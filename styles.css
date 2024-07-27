@@ -126,7 +126,7 @@ nav {
   font-weight: 400;
   color: var(--text-dark);
   line-height: 5.5rem;
-  /* text-align: center; */
+  text-align: center;
 }
 .header_content h2 {
   text-align: center;
@@ -351,6 +351,9 @@ footer {
     padding-block: 2rem;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+  .header_content h1{
+    text-align:left
   }
   .header_image {
     grid-area: 1/2/2/3;
